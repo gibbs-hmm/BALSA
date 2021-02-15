@@ -1,0 +1,1 @@
+P(BLOSUM_30, Gap Opening Penalty=-10, Gap Extension Penalty=-5 | R1,R2) = 1
