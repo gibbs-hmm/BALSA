@@ -26,50 +26,6 @@ whereas SSEARCH detected 18.4 and 38% at an error
 rate of 1% errors per query over the databases,
 respectively
 
-This repository contains the following files:
-.
-├── #README.BALSA.txt#
-├── INSTALL
-├── README.BALSA.txt
-├── balsa.zip
-├── bin
-│   ├── BALSAdatabase
-│   └── BALSAfile
-├── data
-│   ├── 1.fa
-│   ├── 10A.human.3kb.1000.fa
-│   ├── 10B.mouse.3kb.1000.fa
-│   └── 2.fa
-├── db
-│   ├── PDB40DB
-│   ├── PDB90DB
-│   ├── SCOP_ASTRAL40
-│   └── SCOP_ASTRAL95
-├── output
-│   ├── out.txt
-│   ├── out.txt_centroid
-│   ├── out.txt_credibility
-│   ├── out.txt_histogram
-│   └── out.txt_samples
-└── src
-    ├── BALSA_database.cpp
-    ├── BALSA_database_align.cpp
-    ├── BALSA_database_get_seq.cpp
-    ├── BALSA_database_score_sums.cpp
-    ├── BALSA_file.cpp
-    ├── BALSA_file_align.cpp
-    ├── BALSA_file_align.h
-    ├── BALSA_file_get_seq.cpp
-    ├── BALSA_file_get_seq.h
-    ├── BALSA_file_score_sums.cpp
-    ├── BALSA_file_score_sums.h
-    ├── Blosum_name.h
-    ├── bay_matrix_all.h
-    ├── letter.h
-    ├── makefile
-    ├── matrix.h
-    └── msdefs.h
-
 5 directories, 36 files
 
 The bin directory contains BALSAfile and BALSAdatabase compiled with
